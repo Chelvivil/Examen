@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jl_NumeroRegistro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jt_NumeroRegistro" min="-2" pref="213" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jl_CedulaDueño" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jl_PlacaAuto" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jt_CedulaDueño" max="32767" attributes="0"/>
+                          <Component id="jt_PlacaAuto" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jl_NombreDelDueño" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                      <Component id="jt_NombreDueño" min="-2" pref="213" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jl_NumeroRegistro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jt_NumeroRegistro" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jl_NombreDelDueño" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jt_NombreDueño" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jl_CedulaDueño" min="-2" max="-2" attributes="0"/>
+                  <Component id="jt_CedulaDueño" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jl_PlacaAuto" min="-2" max="-2" attributes="0"/>
+                  <Component id="jt_PlacaAuto" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jl_NumeroRegistro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero Registro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jl_NombreDelDue&#xf1;o">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del Due&#xf1;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jl_CedulaDue&#xf1;o">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cedula del Due&#xf1;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jl_PlacaAuto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Placa Automovil"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jt_NumeroRegistro">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jt_NombreDue&#xf1;o">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jt_CedulaDue&#xf1;o">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jt_PlacaAuto">
+    </Component>
+  </SubComponents>
+</Form>
